@@ -17,7 +17,7 @@ foreach ($tab AS $key => $value) {
 		$classe='';
     }
 
-$menu.="<li class='nav-item' ><a class='nav-link' '".$classe."' href='index.php?page=".$key."'>".$value."</a></li>";
+	$menu.="<li class='nav-item' ><a class='nav-link' '" .$classe. "' href='".$key."-". $urls[$key] .".html'>" .$value. "</a></li>";
 
 }
 

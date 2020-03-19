@@ -54,4 +54,7 @@ $requete = "INSERT INTO avis(nom, prenom, avis) VALUES('".$nom."','".$prenom."',
 //Executer la requète grace à la méthode insertion
 $mabdd ->insertion($requete);
 
+//Redirection page 4
+//header('location:index.php?page=4');
+
 }

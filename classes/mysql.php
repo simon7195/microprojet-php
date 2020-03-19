@@ -15,7 +15,7 @@ class mysql {
     $this->open();
     $resultat = $this->open->query($requete);
     $this->open = NULL; //fermeture de la connexion
-    return $resultat->fetchAll(PDO::FETCH_ASSOC);
+    return $resultat->fetchAll(PDO::FETCH_ASSOC);//retourne un tableau associatif
     }
 
     public function insertion($requete) {

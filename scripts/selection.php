@@ -33,7 +33,6 @@ $contenu .= '
 <div class="card-body">
 <h5 class="card-title">'.$value.'</h5>
 <p class="card-text">'.$bio[$key].'</p>
-<a href="#" class="btn btn-primary">Découvrir</a>
 </div>
 </div>';
 }

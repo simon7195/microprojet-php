@@ -1,0 +1,6 @@
+#url rewriting
+RewriteEngine on
+#pages de la forme
+#mondomaine/numitem-texteitem
+# a transformer en  mondomaine/index.php?item=numitem
+RewriteRule ([0-9])-([a-z_-]*)\.html$ index.php?page=$1 [L]
