@@ -43,7 +43,7 @@ $contenu .='
  //echo '<pre>';
  //print_r($_POST);
  //echo'</pre>';
- $contenu ="<div class='p-5 send-message'><p class='text-center text-white p-5 bg-success'>Merci ! Votre avis est enregistré !<p></div>";
+ $contenu ="<div class='p-5 send-message'><p class='text-center text-white p-5 bg-success'>Merci ! Votre avis est enregistré ! Vous pouvez le retrouver <a href='4-tous-les-avis-photographie.html' class='badge badge-light'>ici</a> !</p></div>";
 
 //Ouvrir une connexion
  $mabdd = new mysql();

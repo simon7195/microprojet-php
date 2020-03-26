@@ -11,7 +11,7 @@ $requete = 'SELECT * FROM avis';
 //execution de la requete
 $tableau = $mabdd -> cherche($requete);
 
-$contenu = '<div class="row p-5">';
+$contenu = '<div class="mx-auto row p-5">';
 
 foreach ($tableau as $element) {
 $contenu .= ' 

@@ -13,11 +13,11 @@
     <!-- emplacement pour le contenu de la méta description. -->
     <meta content="{#description#}" name="description">
     <!-- chargement de la css -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/burger.css" rel="stylesheet" type="text/css" />
     <!-- chargement de la favicon -->
-    <link href="images/favicon.png" rel="icon" />
+    <link href="https://img.icons8.com/color/48/000000/old-time-camera.png" rel="icon" />
 
     <!-- Spécial compatibilité avec IE inférieur à 9. Les balises HTML5 ne sont pas reconnues. Chargement
     d'un js qui les remplacent (https://github.com/aFarkas/html5shiv)-->
@@ -29,7 +29,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">{#menu#}</nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">{#menu#}</nav>
     <section class="container-fluid p-0">
         {#content#}
     </section>
@@ -44,6 +44,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="js/burger.js"></script>
 </body>
 
 </html>

@@ -21,18 +21,30 @@ $bio=array(
 	"Dominique Mayer fit ses premières armes photographiques en 1977. Passionné d’astronomie, il entreprit en 1981 de fixer un appareil photo sur un télescope pour pratiquer l’astrophotographie. Encouragé par ses résultats de laboratoires, il décida à partir de 1982 de pointer son appareil vers le reste du vaste monde."
 );
 
+$bioId = array(
+	"biographie-1",
+	"biographie-2",
+	"biographie-3",
+	"biographie-4",
+	"biographie-5",
+);
+
 $titre ='Ma Sélection';
 
-$contenu = '<div class="row p-5">';
+$contenu = '<div class="mx-auto row p-5">';
 
 foreach ($nom as $key => $value) {
 
 $contenu .= ' 
-<div class="card m-2" style="width: 18rem;">
+<div class="card w-100 m-2" style="width: 18rem;">
 <img src="'.$photo[$key].'" class="card-img-top" alt="...">
 <div class="card-body">
 <h5 class="card-title">'.$value.'</h5>
-<p class="card-text">'.$bio[$key].'</p>
+<p class="card-text">
+<a class="badge badge-primary" data-toggle="collapse" href="#'.$bioId[$key].'" role="button" aria-expanded="false" aria-controls="'.$bioId[$key].'">
+Lire la bio
+</a></p>
+<div class="collapse" id="'.$bioId[$key].'">'.$bio[$key].'</div>
 </div>
 </div>';
 }

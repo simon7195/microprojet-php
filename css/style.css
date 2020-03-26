@@ -1,9 +1,33 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
 }
 
 body {
     overflow-x: hidden;
+}
+
+#home-text {
+    margin: 0;
+}
+
+/*Retrait de la bordure du burger*/
+.animated-button, .animated-button:focus {
+    border: none!important;
+    outline: none;
+}
+
+/*Queries*/
+@media (max-width: 768px) {
+    .carousel {
+        display: none;
+    }
+  }
+
+@media (min-width: 769px) {
+    .home-img {
+        display: none;
+    }
 }
