@@ -17,7 +17,6 @@ foreach ($tableau as $element) {
 $contenu .= ' 
 <div class="card m-2" style="width: 18rem;">
 <div class="card-body">
-<h6 class="card-text">Avis n°'.$element['id'].'</h6>
 <h5 class="card-title">'.$element['nom']." ".$element['prenom'].'</h5>
 <p class="card-text">'.$element['avis'].'</p>
 </div>
